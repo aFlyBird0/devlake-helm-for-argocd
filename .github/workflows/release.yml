@@ -29,6 +29,7 @@ jobs:
       - name: Update Helm Dependency
         run: |
           helm repo add bitnami https://charts.bitnami.com/bitnami
+          helm repo add devlake https://apache.github.io/incubator-devlake-helm-chart/
           cd charts/devlake
           helm dependency update
           cd ../..
