@@ -1,1 +1,2 @@
 replicaCount: 2
+imageTag: v0.15.1-beta4
