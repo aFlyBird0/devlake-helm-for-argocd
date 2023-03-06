@@ -3,6 +3,20 @@ entries:
   devlake:
   - apiVersion: v2
     appVersion: 0.15.1-beta5
+    created: "2023-03-06T15:31:58.15127205Z"
+    dependencies:
+    - name: devlake
+      repository: https://apache.github.io/incubator-devlake-helm-chart/
+      version: 0.15.1-beta5
+    description: A Helm chart for Kubernetes
+    digest: 9bc97b89a1eadf0de531c481233c7c959b9b6b1e14bc01d8e81bd921fd922223
+    name: devlake
+    type: application
+    urls:
+    - https://github.com/aFlyBird0/devlake-helm-for-argocd/releases/download/devlake-0.1.6/devlake-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: 0.15.1-beta5
     created: "2023-03-06T15:10:36.886670149Z"
     dependencies:
     - name: devlake
@@ -29,4 +43,4 @@ entries:
     urls:
     - https://github.com/aFlyBird0/devlake-helm-for-argocd/releases/download/devlake-0.1.4/devlake-0.1.4.tgz
     version: 0.1.4
-generated: "2023-03-06T15:10:36.886677349Z"
+generated: "2023-03-06T15:31:58.15128925Z"
